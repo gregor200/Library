@@ -88,6 +88,8 @@ form.addEventListener('submit', function(event){
   remove.addEventListener("click", function() {
     library.splice(library.indexOf(book1), 1);
     book.remove(); h.remove(); span0.remove(); span1.remove(); button2.remove(); remove.remove();
+    titles.splice(titles.indexOf(title.value, 1));
+    authors.splice(authors.indexOf(author.value), 1);
   })
 
   book.append(h);
@@ -108,6 +110,8 @@ form.addEventListener('submit', function(event){
 
  
    }
+   console.log(titles);
+   console.log(authors);
 })
 
 
