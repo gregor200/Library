@@ -14,8 +14,12 @@
   </header>
   
  <button id="button1" onclick="addbook()">+Add book</button>
-
+  
   <form id="form">
+    <div id="error">
+    <img src="warning.png" alt="warning">
+    <span>Book is already available</span>
+    </div>
     <label for="title">Title:</label>
     <input type="text" id="title" required>
 

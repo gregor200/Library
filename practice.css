@@ -39,11 +39,34 @@ header h {
     top:1vh;
 }
 
+ #error {
+    height: 5vh;
+    width: 20vw;
+    background: white;
+    position: relative;
+    margin: auto;
+    border-style: solid;
+    border-color: red; 
+    text-align: center;
+    justify-content: center;
+}
+
+#error img {
+    height: 5vh;
+    width: 3vw;
+}
+
+#error span {
+    position: relative;
+    bottom: -1.6vh;
+    color: red;
+}
+
 form {
     border-style: solid;
     border-color: grey;
     width: 22vw;
-    height: 45vh;
+    height: auto;
     margin: auto;
     border-radius: 12px;
     margin-top: 3vh;
@@ -51,13 +74,13 @@ form {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 1.5vh;
     z-index: 9999;
     display: none;
 }
 
 #submit {
-    height: 20vh;
+    height: 5vh;
     width: 8vw;
     margin: auto;
     border-radius: 8px;
@@ -71,7 +94,7 @@ form {
 }
 
 form input {
-    height: 13vh;
+    height: 4vh;
     width: 18vw;
     margin: auto;
     border-radius: 5px;
@@ -86,7 +109,7 @@ form input:focus {
 
 .check {
     position: relative;
-    top: -2.5vh;
+    top: -3vh;
     margin: auto;
     right: -6.5vw;
 }
